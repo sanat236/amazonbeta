@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+
+}
+.navbar{
+    height: 70px;
+    background-color: #0F1111;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.logo{
+    background-image: url("imagee.png");
+    height: 60px;
+    background-color: #0F1111;
+
+
+}
+.nav-logo{
+    height: 70px;
+    width: 140px;
+
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.2px solid white; 
+}
+.add-first{
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 14px;
+}
+.add-sec{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    margin-left: 13px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+
+}
+.nav-search{
+    display: flex;
+    width: 600px;
+    background-color: pink;
+    height: 40px;
+    border-radius: 6px;
+
+    
+}
+.nav-search:hover{
+    border: 2px solid orange;
+
+}
+.search-select{
+    border-top-left-radius: 6px; 
+    border-bottom-left-radius: 6px; 
+    background: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+
+   
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.add-search{
+    width: 45px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   size: 5rem;
+   background-color: rgb(245, 188,66);
+   border-top-right-radius: 6px; 
+   border-bottom-right-radius: 6px; 
+
+}
+
+   
+
+
+.usa{
+    height: 20px;
+    width: 30px;
+ 
+
+
+}
+.search lang{
+    height: 90px;
+    width: 18px;
+    padding-bottom: 100px;
+    padding-bottom: 200px;
+    background-color: black;
+ 
+}
+.span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 35px;
+
+}
+.panel{
+    height: 39px;
+    
+    background-color:#222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+   justify-content: center;
+   justify-content: space-evenly;
+  
+}
+.panel-ops a{
+    display: inline;
+    margin-left: 15px;
+    
+    
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.hero-section{
+    background-image: url(ama.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 20%;
+    background-color: white;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(223, 155, 227)
+}
